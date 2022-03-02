@@ -12,13 +12,18 @@ class CustomCardType1 extends StatelessWidget {
     return Card(
       child: Column(
         children: [
-          const ListTile(
-            leading: Icon(
-              Icons.photo_album_outlined,
-              color: AppTheme.primaryColor,
+          ListTile(
+            leading: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: const [
+                Icon(
+                  Icons.photo_album_outlined,
+                  color: AppTheme.primaryColor,
+                ),
+              ],
             ),
-            title: Text('Titulo'),
-            subtitle: Text(
+            title: const Text('Titulo'),
+            subtitle: const Text(
                 'Laboris elit mollit proident aliquip nulla non. Ipsum nulla cupidatat ex ad ut nisi do laboris tempor tempor do ullamco minim.'),
           ),
           Padding(
