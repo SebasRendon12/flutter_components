@@ -54,6 +54,11 @@ class AppRoutes {
         icon: Icons.slow_motion_video_rounded,
         name: 'Slider and Checks',
         screen: const SliderScreen()),
+    MenuOption(
+        route: 'listviewbuilder',
+        icon: Icons.build_circle_outlined,
+        name: 'InfiniteScroll & Pull to refresh',
+        screen: const ListViewBuilderScreen()),
   ];
 
   static Map<String, Widget Function(BuildContext)> getAppRoutes() {
