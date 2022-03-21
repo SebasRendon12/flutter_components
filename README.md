@@ -1,6 +1,6 @@
 # flutter_components
 
-A new Flutter project.
+A new Flutter project, that gives an idea of the posibilities using Flutter.
 
 ## Getting Started
 
