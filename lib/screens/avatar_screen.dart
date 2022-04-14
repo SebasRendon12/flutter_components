@@ -12,7 +12,7 @@ class AvatarScreen extends StatelessWidget {
           Container(
             margin: const EdgeInsets.only(right: 15),
             child: CircleAvatar(
-              child: const Text('SL'),
+              child: const Text('SR'),
               backgroundColor: Colors.indigo[900],
             ),
           )
@@ -22,7 +22,7 @@ class AvatarScreen extends StatelessWidget {
           child: CircleAvatar(
         maxRadius: 110,
         backgroundImage: NetworkImage(
-            'https://ca.slack-edge.com/T017KET2V8B-U02HWRJM0R5-947f1c7b9078-512'),
+            'https://http2.mlstatic.com/D_NQ_NP_713215-MCO47633959692_092021-O.jpg'),
       )),
     );
   }

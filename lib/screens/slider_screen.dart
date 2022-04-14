@@ -63,7 +63,7 @@ class _SliderScreenState extends State<SliderScreen> {
             child: SingleChildScrollView(
               child: Image(
                   image: const NetworkImage(
-                      'https://frontlukountstaging.azurewebsites.net/favicon.ico'),
+                      'https://lukount-website-v3.herokuapp.com/src/img/home/Luka-default.png'),
                   fit: BoxFit.contain,
                   width: _sliderValue),
             ),
